@@ -98,6 +98,10 @@ nav a {
 }
 
 /* main section styles */
+main{
+    width: 1140px;
+    margin: 0 auto;
+}
 
 /* about diction styles */
 .about {
@@ -105,4 +109,13 @@ nav a {
     border-radius: 10px;
     background: #FFF8F3;
     margin: 130px;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+.about-info{
+    text-align: center;
 }
