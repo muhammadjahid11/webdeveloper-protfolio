@@ -1,12 +1,14 @@
 /* common shared styles*/
-body{
-    font-family: 'lato', sans-serif
-    font-family: 'open sans', sans-serif
+body {
+    font-family: 'lato', sans-serif;
+    font-family: 'open sans', sans-serif;
 }
-.text-primary{
+
+.text-primary {
     color: #fd6e0a;
 }
-.btn-primary{
+
+.btn-primary {
     border-radius: 5px;
     background: #fd6e0a;
     border: 0;
@@ -15,39 +17,92 @@ body{
     font-size: 700;
     padding: 15px 35px;
 }
+
+.section-title {
+    color: var(--dark-01, #181818);
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.scetion-desciption {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+}
+
 /* nav related styles */
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .nav-title {
     color: #181818;
     font-size: 45px;
     font-weight: 800;
 }
-nav > ul{
-    display:flex;
+
+nav>ul {
+    display: flex;
     align-items: center;
     margin: 0 200px;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 50px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
-    color:#474747;
+    color: #474747;
 }
+
 /* header related styles */
-.header{
+.header {
     background-color: #fff8f3;
+    background-image: url('../imgess/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
 }
-.banner{
-    padding: 30px 30px 30px 150px;
+
+.banner {
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
-.banner .profaile{
+
+.banner-content {
+    max-width: 500px;
+}
+
+.banner .banner-profaile {
     width: 500px;
+}
+
+.banner-greeting {
+    font-size: 45px;
+    counter-reset: #474747;
+    margin-bottom: 5px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+}
+
+/* main section styles */
+
+/* about diction styles */
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px;
 }
